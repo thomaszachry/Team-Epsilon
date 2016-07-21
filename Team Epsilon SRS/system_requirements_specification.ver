@@ -1,0 +1,10 @@
+\begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\\hline 
+1.0
+ & 07.20.2016
+ & \listset {GH}
+ & document creation\\\hline 
+\end {longtable}
