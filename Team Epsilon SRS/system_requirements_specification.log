@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUL 2016 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 JUL 2016 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -411,15 +411,6 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparsep=\skip74
 )
 (./system_requirements_specification.aux)
-Runaway argument?
-{\contentsl 
-./system_requirements_specification.tex:63: File ended while scanning use of \@
-writefile.
-<inserted text> 
-                \par 
-l.63 \begin{document}
-                     
-? ignore
 \openout1 = `system_requirements_specification.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -436,6 +427,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 63.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 63.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
@@ -563,13 +555,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
 (Font)              scaled to size 11.52008pt on input line 77.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 8.64006pt on input line 78.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 78.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 78.
-
-[1
+ [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/test_image.jpg>]
@@ -584,48 +570,111 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
 \vh@hstfile=\write4
 \openout4 = `system_requirements_specification.hst'.
 
- (./system_requirements_specification.ver)
+
+(./system_requirements_specification.ver)
 (./system_requirements_specification.ver)
 (./system_requirements_specification.ver
 Underfull \vbox (badness 10000) detected at line 10
  []
 
+) [2] (./system_requirements_specification.toc
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 2.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 2.
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 93.
 
-[2] (./system_requirements_specification.toc)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 2.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 2.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 2.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 2.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 2.
+)
 \tf@toc=\write5
 \openout5 = `system_requirements_specification.toc'.
 
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 98.
 
 [3] (./system_requirements_specification.lof)
 \tf@lof=\write6
 \openout6 = `system_requirements_specification.lof'.
 
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 103.
-
-[4] (./tex/product_concept.tex
+ [4] (./tex/product_concept.tex
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 3.
 File: images/test_image.jpg Graphic file (type jpg)
- <use images/test_image.jpg>
+
+<use images/test_image.jpg>
 Package pdftex.def Info: images/test_image.jpg used on input line 11.
 (pdftex.def)             Requested size: 281.85587pt x 211.39716pt.
-)
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 107.
-
-[5] (./tex/product_description.tex)
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 110.
-
-[6] (./tex/customer_requirements.tex
+) [5] (./tex/product_description.tex) [6]
+(./tex/customer_requirements.tex
 LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
 (Font)              scaled to size 10.51207pt on input line 4.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
@@ -636,68 +685,26 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 
 LaTeX Warning: Citation `Rubin2012' on page 7 undefined on input line 11.
 
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 15
-.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
-File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
-)
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 15.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 29.
-
-[7])
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 113.
-
-[8] (./tex/packaging_requirements.tex)
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 116.
-
-[9] (./tex/performance_requirements.tex)
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 119.
-
-[10] (./tex/safety_requirements.tex)
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 122.
-
-[11] (./tex/maintenance_support_requirements.tex)
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 125.
-
-[12] (./tex/other_requirements.tex)
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 128.
-
-[13] (./tex/future_items.tex)
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 131.
-
-[14]
+[7]) [8] (./tex/packaging_requirements.tex) [9]
+(./tex/performance_requirements.tex) [10] (./tex/safety_requirements.tex)
+[11] (./tex/maintenance_support_requirements.tex) [12]
+(./tex/other_requirements.tex) [13] (./tex/future_items.tex) [14]
 No file system_requirements_specification.bbl.
-
-Package lastpage Warning: Rerun to get the references right on input line 138.
-
 
 AED: lastpage setting LastPage
 (./system_requirements_specification.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5967 strings out of 493014
- 81873 string characters out of 6133351
- 150252 words of memory out of 5000000
- 9298 multiletter control sequences out of 15000+600000
- 61112 words of font info for 61 fonts, out of 8000000 for 9000
+ 6046 strings out of 493014
+ 83642 string characters out of 6133351
+ 150266 words of memory out of 5000000
+ 9358 multiletter control sequences out of 15000+600000
+ 66663 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,895b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,43p,895b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/t
@@ -707,7 +714,7 @@ e/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb
 >
-Output written on system_requirements_specification.pdf (14 pages, 139310 bytes
+Output written on system_requirements_specification.pdf (14 pages, 140982 bytes
 ).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
