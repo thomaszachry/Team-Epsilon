@@ -15,8 +15,7 @@
 
 
 ####SIDE NOTES
+1. *In case the script doesn't do this automatically, add these two lines in your* **.bashrc** *or* **.zshrc**
+  - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(openrave-config --python-dir)/openravepy/_openravepy_
+  - export PYTHONPATH=$PYTHONPATH:$(openrave-config --python-dir)
 
-- export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(openrave-config --python-dir)/openravepy/_openravepy_
-- export PYTHONPATH=$PYTHONPATH:$(openrave-config --python-dir)
-
-Write these two lines in your .bashrc or .zshrc to save this configuration between sessions.
