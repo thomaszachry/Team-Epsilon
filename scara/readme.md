@@ -1,0 +1,9 @@
+- Base0, Base1 on top of Base0
+- Arm0 offset from Base1
+- Joint at Arm0 and Base0 (Base1 non-moving, won't affect much)
+- Joint can rotate (-120 120) degree
+- Base2 offset from Base1
+- Combine Base2 and Arm0 into one unit
+- Arm1 offset from Base2
+- Joint at Arm1 and Base2
+- Joint can rotate (-120 120) degree

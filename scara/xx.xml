@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Robot name="SCARA">
+    
+    <KinBody>
+        
+	<Body name="Base0" type="dynamic">
+		<!-- x z y -->
+            <Translation>0.0  0.0  0.0</Translation>
+            <Geom type="cylinder">
+                <rotationaxis>0 1 0 90</rotationaxis>
+                <radius>0.1143</radius> <!-- in meters -->
+                <height>0.3048</height>
+                <ambientColor>1. 0. 0.</ambientColor>
+                <diffuseColor>1. 0. 0.</diffuseColor>
+            </Geom>
+        </Body>
+
+	<Body name="Base1" type="dynamic">
+	    <offsetfrom>Base0</offsetfrom>
+            <Translation>0.0  0.2065  0.0</Translation>
+            <Geom type="cylinder">
+                <rotationaxis>0 1 0 90</rotationaxis>
+                <radius>0.0508</radius>
+                <height>0.1016</height>
+                <ambientColor>0. 0. 0.</ambientColor>
+                <diffuseColor>0. 0. 0.</diffuseColor>
+            </Geom>
+        </Body>
+
+
+
+<!-- First Arm of SCARA-->
+	    <Body name="Arm0" type="dynamic">
+	      <!-- Offset from is a fast way of specifying that the translation and rotation of this-->
+	      <!-- body should be relative to another link-->
+	      <offsetfrom>Base1</offsetfrom>
+	      <!-- Translation relative to Base-->
+	      <Translation>0.183 0 0</Translation>
+	      <Geom type="cylinder">
+                <rotationaxis>0 0 1 90</rotationaxis>
+		<height>0.29305</height> <!-- 0.27305 originally, but made longer to sink in the joints-->
+		<radius>0.04445</radius>
+		<!--Extents>0.3048 0.01 0.005</Extents-->
+	      </Geom>
+	</Body>
+	
+
+
+	<!-- declare a circular hinge joint (circular joints false to limit degree -->
+    	<Joint circular="false" name="Arm0" type="hinge">
+	      <Body>Base0</Body>
+	      <Body>Arm0</Body>
+	      <offsetfrom>Base1</offsetfrom>
+	      <weight>4</weight>
+	      <limitsdeg>-120 120</limitsdeg>
+	      <axis>0 1 0</axis>
+	      <maxvel>3</maxvel>
+	      <resolution>1</resolution>
+	</Joint>
+
+
+
+
+	<Body name="Base2" type="dynamic">
+	    <offsetfrom>Base1</offsetfrom>
+            <Translation>0.3628  0.0  0.0</Translation>
+            <Geom type="cylinder">
+                <rotationaxis>0 1 0 90</rotationaxis>
+                <radius>0.0508</radius>
+                <height>0.1016</height>
+                <ambientColor>0. 0. 0.</ambientColor>
+                <diffuseColor>0. 0. 0.</diffuseColor>
+            </Geom>
+        </Body>
+
+
+    	<Joint circular="false" name="Arm0Base2" type="hinge">
+	      <Body>Arm0</Body>
+	      <Body>Base2</Body>
+	      <offsetfrom>Arm0</offsetfrom>
+	      <weight>4</weight>
+	      <limitsdeg>0 0</limitsdeg>
+	      <axis>0 1 0</axis>
+	      <maxvel>3</maxvel>
+	      <resolution>1</resolution>
+	</Joint>
+
+
+<!-- Second Arm of SCARA-->
+	    <Body name="Arm1" type="dynamic">
+	      <!-- Offset from is a fast way of specifying that the translation and rotation of this-->
+	      <!-- body should be relative to another link-->
+	      <offsetfrom>Base2</offsetfrom>
+	      <!-- Translation relative to Base-->
+	      <Translation>0.18 0 0</Translation>
+	      <Geom type="cylinder">
+                <rotationaxis>0 0 1 90</rotationaxis>
+		<height>0.29305</height> <!-- 0.27305 originally, but made longer to sink in the joints-->
+		<radius>0.04445</radius>
+		<!--Extents>0.3048 0.01 0.005</Extents-->
+	      </Geom>
+	</Body>
+
+
+    	<Joint circular="false" name="Arm1" type="hinge">
+	      <Body>Base2</Body>
+	      <Body>Arm1</Body>
+	      <offsetfrom>Base2</offsetfrom>
+	      <weight>4</weight>
+	      <limitsdeg>-120 120</limitsdeg>
+	      <axis>0 1 0</axis>
+	      <maxvel>3</maxvel>
+	      <resolution>1</resolution>
+	</Joint>
+
+
+
+    </KinBody>
+</Robot>
+
