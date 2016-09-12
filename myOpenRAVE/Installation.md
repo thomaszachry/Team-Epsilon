@@ -6,7 +6,7 @@
  
 
 ####INSTRUCTIONS: 
-1. Download [script.sh] (https://github.com/thomaszachry/Team-Epsilon/blob/master/myOpenRAVE/script.sh)
+1. Download [script.sh] (https://raw.githubusercontent.com/thomaszachry/Team-Epsilon/master/myOpenRAVE/script.sh)
 2. Right-click downloaded file, go to "Permissions" tab, check "Allow executing file as program"
 3.	Open up the Terminal in the folder containing script.sh
 4.	Run  "sudo ./script.sh" (without quotations)
