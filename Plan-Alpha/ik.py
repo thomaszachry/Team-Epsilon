@@ -1,9 +1,8 @@
 #!/usr/bin/python
 
+#RUN FILE BY PROVIDING VALUES FOR X Y: python ik.py x y
 import math
-
-RADIANS = 0
-DEGREES = 1
+import sys
 
 l1 = 12.5 #Length of link 1
 l2 = 13.5 #length of link 2
@@ -11,7 +10,7 @@ l2 = 13.5 #length of link 2
 
 
 #IK for just the 2 links
-def invkin2(x, y, angleMode=DEGREES):
+def invkin2(x,y):
     """Returns the angles of the first two links
     in the robotic arm as a list.
     returns -> (th1, th2)
@@ -24,6 +23,8 @@ def invkin2(x, y, angleMode=DEGREES):
     th1 - angle of the first link w.r.t ground
     th2 - angle of the second link w.r.t the first link"""
 
+
+	
     #stuff for calculating th2
     r_2 = x**2 + y**2
     l_sq = l1**2 + l2**2
@@ -42,11 +43,9 @@ def invkin2(x, y, angleMode=DEGREES):
     #calculate th1
     th1 = math.atan2(y,x) - gamma
 
-    if(angleMode == RADIANS):
-        return th1, th2
-    else:
-        return math.degrees(th1), math.degrees(th2)
+    return math.degrees(th1), math.degrees(th2)
 
 
 if __name__ == "__main__":
-    print invkin2(0, 200, DEGREES)
+    print invkin2(float(sys.argv[1]),float(sys.argv[2])) #x,y
+
