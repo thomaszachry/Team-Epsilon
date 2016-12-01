@@ -54,4 +54,5 @@ cd
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(openrave-config --python-dir)/openravepy/_openravepy_" >> .bashrc
 echo "export PYTHONPATH=$PYTHONPATH:$(openrave-config --python-dir)" >> .bashrc
 
+sudo chmod 777 OpenRAVE
 openrave.py --example hanoi
