@@ -7,3 +7,4 @@ cd Ubuntu
 sudo ./opencv_latest.sh
 cd
 sudo rm -rf Install-OpenCV
+pip install imutils
