@@ -4,8 +4,8 @@
 import math
 import sys
 
-l1 = 12.5 #Length of link 1
-l2 = 13.5 #length of link 2
+l1 = 317.5 #in mm = 12.5 inch Length of link 1
+l2 = 342.9 #in mm = 13.5 inchlength of link 2
 
 
 
