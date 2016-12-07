@@ -35,7 +35,9 @@ ramp_frames = 30
 # initialize the camera capture object with the camera_port
 camera = cv2.VideoCapture(camera_port)
  
-
+#Dimension of platform
+boardW = 0
+boardH = 0
  
 # Ramp the camera - these frames will be discarded and are only used to allow v4l2
 # to adjust light levels, if necessary
@@ -154,8 +156,8 @@ for c in cnts:
 	# real coord of mid points
 	coordX = (intX / pixelsPerMetric) + (82 / pixelsPerMetric)
 	coordY = (intY / pixelsPerMetric) + (69 / pixelsPerMetric)
-	print "real mid point X %f" % coordX
-	print "real mid point Y %f" % coordY
+	print "real mid point X %f" % coordX - boardW
+	print "real mid point Y %f" % boardH - coordY 
 	
 	
 	# show the output image
