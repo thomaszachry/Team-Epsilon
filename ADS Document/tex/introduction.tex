@@ -1,0 +1,61 @@
+
+
+Your introduction should describe your product concept in sufficient detail that the architectural design will be easy to follow. The introduction may include information used in the first sections of your SRS for this purpose. At a minimum, ensure that the product concept, scope and key requirements are described.
+
+\subsection{Product Concept}
+This section describes the purpose, use and intended user audience for the SCARA Robot Arm product.
+The SCARA Robot Arm is a system that performs typical industrial sorting routines. Users of the SCARA
+Robot Arm will be able to use the SCARA Robot Arm to efficiently sort various common industrial objects. Through the use of a GUI, the user will also be able to control the arm and view both the camera feed and simulation. This way the user is able to have a product that can automate tasks such as sorting as well as be able to configure and control how it accomplishes such tasks.
+
+\subsection{Product Scope}
+
+The SCARA Robot Arm consists of the skeleton of the arm, two motors for joint movement, two encoders, a linear actuator that moves the end effector to grip objects, and an air pump. This hardware receives movement commands from the teensy board and the C code on that, which receives data from an ubuntu OS. The GUI and OpenRave are run on ubuntu, with OpenRave handling the kinematics and movement plans for the robot arm and recieving data from the camera to make its plans. The GUI takes this data and shows it on the screen as well as is responsible for sending the data into packets to the teensy board. 
+
+
+
+\subsection{Key Requirements}
+ 
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{2.5}
+
+ 
+\begin{tabular}{ |p{1cm}|p{5cm}|p{7cm}|  }
+
+
+\hline
+No.& Name &Description \\
+\hline
+1 & The system shall have the operational design of a SCARA Robot Arm &The design will have the design properties of a SCARA Robot Arm. The Arm will have multiple pivoting joints to aid in movement.  \\
+2 & The system shall have a operating area of no more than 18 inches by 18 inches.    & The operating area of the SCARA Robot ARM will have a operation area of minimum 18 inches by 18 inches.  \\
+3 &The system shall be a stand alone SCARA Robot Arm with no desktop computer terminal connections for support. & The Robot arm will be designed with no outside user terminal support connections. The arm will have a built in user interface.  \\
+4    &The system shall have a minimum of 2 segment links for articulation.  & The Robot Arm will have at least 2 articulating segments in the arm \\
+5 & The system shall utilize available technology for computer vision processes & The Arm will use current available technologies for computer vision processes, i.e. cameras, i.r. sensors, high frequency sound emmiters, laser imagers.  \\
+6 & The system shall perform current industry accepted sorting processes. & The Robot Arm will perform processes that are currently being utilised in industry, i.e. sorting, object recognition, pick and place.   \\
+7 & The system shall incorporate current object recognition technologies. & The Robot Arm will use the current methods to perform object recognition in accordance with processes, i.e. openCV, simpleCV \\
+8 & The system shall be contained in 1 compact operational package. & The Robot Arm's final structural form will be one complete working package containing all components needed of the Arm.  \\
+9 & The system shall contain sufficient power supply to feed all components of the SCARA Robot Arm. & The Robot Arm and all its dependent components will be supplied power through on board power supplies within the compact package. \\
+
+\hline
+\end{tabular}
+
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{2.5}
+ 
+\begin{tabular}{ |p{1cm}|p{5cm}|p{7cm}|  }
+
+\hline
+No.& Name &Description \\
+\hline
+
+10 & The system shall have a repeatability accuracy of minimum .050mm. & The SCARA Robot Arm will have accuracy to repeatedly focus the end effector within a range of .05mm. \\
+11 & The system shall have a resolution accuracy of +- 1mm. & The Robot Arm will have a calculating system to acquire objects within 1mm of its actual position. \\
+12 & The system shall adhere to all industry standards for machine power/ lockout safety.  & The SCARA Robot Arm will adhere to all OSHA 3102 standards covering all power supplying power to machinery and all power lockout processes. \\
+13 & The system shall follow all OSHA guidelines for robotic machines.  & The SCARA Robot Arm will conform to all OSHA 29 CFR 1910 guidelines for robotic equipment. \\
+14 & The system shall allow access for mandatory use period servicing.  & The Robot Arm will allow for the ability to have regular interval maintenence performed.  \\
+15 & The system shall contain interface for technician calibration.  & AGO \\
+16 & The system shall contain method for system updates delivered through compact disk/usb flash drive. & The Robot Arm shall have the ability for software and firmware updates through either compact disk or through usb flash drive.  \\
+\hline
+
+\end{tabular}
