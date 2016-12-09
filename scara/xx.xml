@@ -52,9 +52,9 @@
 	      <Body>Arm0</Body>
 	      <offsetfrom>Base1</offsetfrom>
 	      <weight>4</weight>
-	      <limitsdeg>-120 120</limitsdeg>
+	      <limitsdeg>-180 180</limitsdeg>
 	      <axis>0 1 0</axis>
-	      <maxvel>3</maxvel>
+	      <maxvel>0.1</maxvel>
 	      <resolution>1</resolution>
 	</Joint>
 
@@ -74,15 +74,11 @@
         </Body>
 
 
-    	<Joint circular="false" name="Arm0Base2" type="hinge">
+    	<Joint name="dummy" type="hinge" enable="False">
 	      <Body>Arm0</Body>
 	      <Body>Base2</Body>
 	      <offsetfrom>Arm0</offsetfrom>
-	      <weight>4</weight>
 	      <limitsdeg>0 0</limitsdeg>
-	      <axis>0 1 0</axis>
-	      <maxvel>3</maxvel>
-	      <resolution>1</resolution>
 	</Joint>
 
 
@@ -114,7 +110,70 @@
 	</Joint>
 
 
+	<Body name="Base3" type="dynamic">
+	    <offsetfrom>Arm1</offsetfrom>
+            <Translation>0.197  0.0  0.0</Translation>
+            <Geom type="cylinder">
+                <rotationaxis>0 1 0 90</rotationaxis>
+                <radius>0.0508</radius>
+                <height>0.1016</height>
+                <ambientColor>0. 0. 0.</ambientColor>
+                <diffuseColor>0. 0. 0.</diffuseColor>
+            </Geom>
+        </Body>
+
+
+    	<Joint name="dummy" type="hinge" enable="False">
+	      <Body>Arm1</Body>
+	      <Body>Base3</Body>
+	      <offsetfrom>Arm1</offsetfrom>
+	      <limitsdeg>0 0</limitsdeg>
+	</Joint>
+
+
+
+<!-- End effector of SCARA-->
+	    <Body name="End" type="dynamic">
+	 <!-- Offset from is a fast way of specifying that the translation and rotation of this-->
+	      <!-- body should be relative to another link-->
+	      <offsetfrom>Base3</offsetfrom>
+	      <!-- Translation relative to Base-->
+	      <Translation>0 0 0</Translation>
+	      <Geom type="cylinder">
+                <rotationaxis>0 0 0 0</rotationaxis>
+		<height>0.5</height> 
+		<radius>0.02222</radius>
+	      </Geom>
+	</Body>
+
+
+
+
+    	<Joint name="End" type="slider">
+	      <Body>Base3</Body>
+	      <Body>End</Body>
+	      <offsetfrom>Base3</offsetfrom>
+	      <weight>4</weight>
+<!-- limits are in rads, but directly reflect distance moved in meters-->
+ 		<limits>0 0.25</limits>
+	      <axis>0 -1 0</axis>
+	      <maxvel>0.5</maxvel>
+	      <resolution>1</resolution>
+	</Joint>
+
 
     </KinBody>
+
+
+<Manipulator name="arm">
+   <effector>End</effector>   
+   <base>Base1</base>           
+   <joints>End</joints>      
+   <closingdirection>1 1</closingdirection>
+   <direction>0 -1 0</direction>
+   <Translation>0.125 0 0</Translation>
+ </Manipulator>
+
+
 </Robot>
 

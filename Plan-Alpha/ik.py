@@ -21,7 +21,8 @@ def invkin2(x,y):
                 degrees/radians. Default is degrees
     output:
     th1 - angle of the first link w.r.t ground
-    th2 - angle of the second link w.r.t the first link"""
+    th2 - angle of the second link w.r.t the first link
+    (-999,-999) - when the angles were not determined/ unreachable"""
 
 
     try:	
