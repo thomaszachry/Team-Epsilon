@@ -9,10 +9,12 @@ University of Texas at Arlinton
 
 ####Please head over to our **[WIKI] (https://github.com/thomaszachry/Team-Epsilon/wiki)** page for more information
 
-**Members:**
+##Members
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**[Thomas Zachry] ()                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Randy Thien Cao] (randythiencao@yahoo.com)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Charlie Pan] (charliep12110345@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Diane Chin] ()                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Shayan Raza] (shay.raza1@gmail.com)**
 
-1. Thomas Zachry : 
-2. [Randy Thien Cao] (randythiencao@yahoo.com)
-3. [Charlie Pan] (charliep12110345@gmail.com)
-4. Diane Chin : 
-5. [Shayan Raza] (shay.raza1@gmail.com)
+
