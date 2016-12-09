@@ -12,7 +12,7 @@ University of Texas at Arlinton
 **Members:**
 
 1. Thomas Zachry : 
-2. Randy Thien Cao : `randythiencao@yahoo.com`
-3. Charlie Pan : 
+2. [Randy Thien Cao] (randythiencao@yahoo.com)
+3. [Charlie Pan] (charliep12110345@gmail.com)
 4. Diane Chin : 
-5. Shayan Raza :
+5. [Shayan Raza] (shay.raza1@gmail.com)
