@@ -3,7 +3,7 @@ Team repo for SCARA Project
 
 SCARA robot arm project for Senior Design 1 & 2
 
-University of Texas at Arlinton
+University of Texas at Arlington
 
 06/2016 - 12/2016
 
