@@ -8,7 +8,12 @@ University of Texas at Arlinton
 06/2016 - 12/2016
 
 ####Please head over to our **[WIKI] (https://github.com/thomaszachry/Team-Epsilon/wiki)** page for more information
+&nbsp;
 
+&nbsp;
+
+&nbsp;
+***
 ##Members
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 **[Thomas Zachry] (mailto:)                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
