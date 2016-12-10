@@ -15,11 +15,11 @@ University of Texas at Arlinton
 &nbsp;
 ***
 ###Members
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**[Thomas Zachry] (mailto:)                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
-**[Randy Thien Cao] (mailto:randythiencao@yahoo.com)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
-**[Charlie Pan] (mailto:charliep12110345@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
-**[Diane Chin] (mailto:dmwchin@gmail.com)           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**[Thomas Zachry] (mailto:)                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Randy Thien Cao] (mailto:randythiencao@yahoo.com)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Charlie Pan] (mailto:charliep12110345@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+**[Diane Chin] (mailto:dmwchin@gmail.com)           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
 **[Shayan Raza] (mailto:shay.raza1@gmail.com)**
 
 
