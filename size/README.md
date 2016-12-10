@@ -17,4 +17,4 @@ by Dr Simon J. D. Prince
 by E. R. Davies
 
 
-python size.py --image images/example_01.png --width 0.955
+`python object_size.py`
